@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node",
-    "type": "module",
-    "build": "npm run clean && npm run transpile",
-    "clean": "rm -rf dist",
-    "transpile": "babel src --out-dir dist",
-    "test": "mocha tests/**/*.js"
+    "start": "nodemon ./index.js --exec babel-node"
   },
   "author": "harigovind",
   "license": "ISC",
